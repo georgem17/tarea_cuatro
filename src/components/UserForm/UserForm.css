@@ -1,0 +1,39 @@
+
+.user-form{
+  padding: 32px;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 5px #B55400);
+
+  background-color: #393E46;
+}
+
+.user-menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.user-form_close-btn{
+  background-color: #222831;
+  color: #EEEEEE;
+  padding: 5px 7px;
+  margin: 0px 0px 0px 15px;
+}
+.user-form__input_cont{
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 15px 0px;
+}
+.user-form__input_cont input{
+  padding:5px;
+  border-radius: 5px;
+  border: none;
+  margin: 3px 0px 0px 0px;
+}
+.user-form_submit{
+  border: none;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #B55400;
+  color: #EEEEEE;
+}

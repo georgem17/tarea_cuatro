@@ -1,0 +1,38 @@
+.user-list__btns_cont {
+  display: flex;
+  justify-content: space-between;
+}
+.user-list__btns_cont p{
+  margin: 0;
+  padding: 0px;
+}
+.user-list__btns_cont button {
+  margin: 0px;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: #B55400;
+  color: #EEEEEE;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ul article{
+    padding: 20px;
+    background-color: #393E46;
+    margin: 50px 30px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 15px black);
+}
+.userdata{
+  color: #EEEEEE;
+}
+@media (min-width: 800px) {
+  ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(auto-fill, auto);
+  }
+}
